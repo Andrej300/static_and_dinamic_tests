@@ -24,11 +24,11 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2): # the right word "def", instead of "dif".
-  if card1.value > card2.value:
-    return card
-  else:
-    return card2
+  dif highest_card(self, card1 card2): # the right word "def", instead of "dif". Missing comma after caard1.
+  if card1.value > card2.value: #Wrong indentation
+    return card #Wrong indentation
+  else: #Wrong indentation
+    return card2 #Wrong indentation
   
 
 
