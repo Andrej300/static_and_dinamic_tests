@@ -33,7 +33,7 @@ class CardGame:
 
 
 def cards_total(self, cards):
-  total
+  total  # 'total' variable is not assigned to anything
   for card in cards:
     total += card.value
     return "You have a total of" + total
