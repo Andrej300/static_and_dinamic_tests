@@ -18,3 +18,8 @@ class TestCardGame(unittest.TestCase):
 
     def test_highest_card_function(self):
         self.assertEqual(self.card1, self.card_game.highest_card(self.card1, self.card2))
+
+
+
+    def test_cards_total_function(self):
+        self.assertEqual("You have a total of 4", self.card_game.cards_total(self.cards))
